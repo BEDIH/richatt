@@ -17,7 +17,7 @@ body {
   left: 20px;
   height: 60px;
   width: 60px;
-  background-color: #160f95;
+  background-color: #0c00f3;
   border: none;
   border-radius: 50%;
   color: white;
@@ -51,7 +51,7 @@ body {
 }
 
 .chatbot header {
-  background: #160f95;
+  background: #6C63FF;
   color: white;
   padding: 10px 15px;
   font-size: 18px;

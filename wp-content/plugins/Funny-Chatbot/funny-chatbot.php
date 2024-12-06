@@ -37,8 +37,7 @@ function funny_chatbot_add_to_footer() {
         <!-- Fenêtre du chatbot -->
         <div class="chatbot">
             <header>
-                <h2>Chatbot</h2>
-                <button class="close-btn material-symbols-outlined">close</button>
+                <h2>Expert</h2>
             </header>
             <div class="chatbox">
                 <ul>
@@ -50,8 +49,11 @@ function funny_chatbot_add_to_footer() {
             </div>
             <div class="chat-input">
                 <textarea placeholder="Type your message here..."></textarea>
-                <button id="send-btn" class="material-symbols-rounded">send</button>
-                <button id="restart-btn" class="material-symbols-rounded">restart_alt</button>
+                <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
+<button id="send-btn" class="material-symbols-rounded">send</button>
+<button id="restart-btn" class="material-symbols-rounded">restart_alt</button>
+
+
             </div>
         </div>
     </div>

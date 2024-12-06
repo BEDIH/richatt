@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const chatInput = document.querySelector('.chat-input textarea');
     const sendChatBtn = document.querySelector('#send-btn');
     const restartBtn = document.querySelector('#restart-btn');
-    const API_URL = "https://maurifun.xyz/chatbot/agent_query/";
+    const API_URL = "https://maurifun.xyz/main/agent_query/";
 
     // Ouvrir/Fermer le chatbot
     chatbotToggler.addEventListener('click', () => {

@@ -1,0 +1,15 @@
+#zombie-walker {
+    position: fixed; /* Fixer la position à l'écran */
+    top: 50%; /* Centrer verticalement */
+    right: 20%; /* Déplacer légèrement à gauche (20% de la largeur de l'écran) */
+    transform: translateY(-50%); /* Centrer verticalement */
+    width: 80px; /* Taille réduite du zombie (comme un toast) */
+    height: auto; /* Garder la proportion de l'image */
+    border: 2px solid rgba(0, 255, 0, 0.7); /* Cadre vert autour du zombie */
+    border-radius: 8px; /* Coins arrondis du cadre */
+    padding: 4px; /* Espacement interne autour de l'image */
+    background-color: rgba(0, 0, 0, 0.4); /* Ombre de fond légère */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ombre autour du cadre */
+    z-index: 9999; /* Assurer que le zombie soit au-dessus du reste du contenu */
+    transition: transform 1s ease; /* Animation de l'apparition du zombie */
+}
