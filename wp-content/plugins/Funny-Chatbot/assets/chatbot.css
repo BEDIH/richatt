@@ -129,9 +129,9 @@ body {
 
 /* Remplacer l'icône par du texte pour "send" et "restart" */
 .chat-input button#send-btn {
-  background: #4CAF50; /* Couleur pour envoyer */
+  background: #6C63FF; /* Couleur pour envoyer */
 }
 
 .chat-input button#restart-btn {
-  background: #FF9800; /* Couleur pour la nouvelle session */
+  background: #6C63FF; /* Couleur pour la nouvelle session */
 }
